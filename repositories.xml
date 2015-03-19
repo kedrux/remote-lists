@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "http://www.gentoo.org/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="official">
+    <name>dotnet</name>
+    <description>Experimental overlay for .NET packages.</description>
+    <homepage>http://github.com/gentoo/dotnet</homepage>
+    <owner>
+      <email>cynede@gentoo.org</email>
+      <name>Heather</name>
+    </owner>
+    <source type="git">git://git.overlays.gentoo.org/proj/dotnet.git</source>
+    <source type="git">git+ssh://git@git.overlays.gentoo.org/proj/dotnet.git</source>
+    <feed>http://git.overlays.gentoo.org/gitweb/?p=proj/dotnet.git;a=atom</feed>
+  </repo>
+  <repo quality="experimental" status="unofficial">
+    <name>hamper-overlay</name>
+    <description>User overlay</description>
+    <homepage>https://github.com/hamper/hamper-overlay</homepage>
+    <owner type="person">
+      <email>hamper.nhs@gmail.com</email>
+      <name>Alexander Pilipenko</name>
+    </owner>
+    <source type="git">git://github.com/hamper/hamper-overlay.git</source>
+    <source type="git">https://github.com/Hamper/hamper-overlay.git</source>
+    <feed>https://github.com/hamper/hamper-overlay/commits/master.atom</feed>
+  </repo>
+  <repo quality="experimental" status="unofficial">
+    <name>yarik-overlay</name>
+    <description lang="en">Some new packages plus uncommitted patches and ebuilds for the main tree</description>
+    <homepage>http://code.google.com/p/yarik-overlay/</homepage>
+    <owner type="person">
+      <email>ygorbunov@gmail.com</email>
+      <name>Yaroslav Gorbunov</name>
+    </owner>
+    <source type="svn">http://yarik-overlay.googlecode.com/svn/trunk/overlay</source>
+    <feed>https://code.google.com/feeds/p/yarik-overlay/svnchanges/basic</feed>
+  </repo>
+  <repo quality="experimental" status="unofficial">
+    <name>calculate</name>
+    <description>Calculate Overlay</description>
+    <homepage>http://www.calculate-linux.org</homepage>
+    <owner>
+      <email>support@calculate.ru</email>
+    </owner>
+    <source type="git">git://git.calculate.ru/calculate/overlay.git</source>
+  </repo>
+</repositories>
