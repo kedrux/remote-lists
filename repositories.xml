@@ -9,9 +9,7 @@
       <email>cynede@gentoo.org</email>
       <name>Heather</name>
     </owner>
-    <source type="git">git://git.overlays.gentoo.org/proj/dotnet.git</source>
-    <source type="git">git+ssh://git@git.overlays.gentoo.org/proj/dotnet.git</source>
-    <feed>http://git.overlays.gentoo.org/gitweb/?p=proj/dotnet.git;a=atom</feed>
+    <source type="git">https://4978b84be5f5908083ff97d5d2feef60effc55e3@github.com/ArsenShnurkov/dotnet.git</source>
   </repo>
   <repo quality="experimental" status="unofficial">
     <name>hamper-overlay</name>
