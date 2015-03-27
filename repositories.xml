@@ -24,14 +24,16 @@
     <feed>https://github.com/hamper/hamper-overlay/commits/master.atom</feed>
   </repo>
   <repo quality="experimental" status="unofficial">
-    <name>yarik-overlay</name>
-    <description lang="en">Some new packages plus uncommitted patches and ebuilds for the main tree</description>
-    <homepage>http://code.google.com/p/yarik-overlay/</homepage>
+    <name>tox-overlay</name>
+    <description lang="en">Gentoo overlay for Toxcore, Tox clients, and Tox related projects</description>
+    <homepage>https://github.com/urras/gentoo-overlay-tox</homepage>
     <owner type="person">
-      <email>ygorbunov@gmail.com</email>
-      <name>Yaroslav Gorbunov</name>
+      <email>urras@tox.im</email>
+      <name>urras</name>
     </owner>
-    <source type="svn">http://yarik-overlay.googlecode.com/svn/trunk/overlay</source>
-    <feed>https://code.google.com/feeds/p/yarik-overlay/svnchanges/basic</feed>
+    <source type="git">git://github.com/urras/gentoo-overlay-tox.git</source>
+    <source type="git">https://github.com/urras/gentoo-overlay-tox.git</source>
+    <source type="git">git@github.com:urras/gentoo-overlay-tox.git</source>
+    <feed>https://github.com/urras/gentoo-overlay-tox/commits/master.atom</feed>
   </repo>
 </repositories>
