@@ -9,7 +9,7 @@
       <email>cynede@gentoo.org</email>
       <name>Heather</name>
     </owner>
-    <source type="git">https://github.com/gentoo/dotnet/dotnet.git</source>
+    <source type="git">https://github.com/gentoo/dotnet.git</source>
   </repo>
   <repo quality="experimental" status="unofficial">
     <name>hamper-overlay</name>
